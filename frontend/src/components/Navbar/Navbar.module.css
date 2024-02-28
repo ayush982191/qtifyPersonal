@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Navbar{
+    background-color: var(--color-primary);
+    padding: 1rem;
+    height: 10vh;
+
+
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.wrapper li{
+    list-style: none;
+}
+
+.button{
+    background-color: var(--color-black);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    color: var(--color-primary);
+    padding: .5rem;
+    /* width: 100%; */
+
+}
